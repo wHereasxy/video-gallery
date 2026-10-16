@@ -1,0 +1,54 @@
+[
+  {
+    "id": "gauss",
+    "title": "高斯分布",
+    "category": "science",
+    "categoryName": "科学故事",
+    "tag": "一点知识",
+    "description": "从一条钟形曲线，走进高斯的故事。",
+    "poster": "assets/gauss.jpg",
+    "video": "videos/gauss.mp4",
+    "downloadName": "小兔叽勇者-高斯分布.mp4",
+    "sizeMB": 29.4,
+    "durationLabel": "1:03"
+  },
+  {
+    "id": "history",
+    "title": "华夏复兴之路",
+    "category": "history",
+    "categoryName": "历史叙事",
+    "tag": "像素漫游",
+    "description": "在像素构成的世界里，开启历史旅程。",
+    "poster": "assets/history.jpg",
+    "video": "videos/history.mp4",
+    "downloadName": "小兔叽勇者-华夏复兴之路.mp4",
+    "sizeMB": 13.3,
+    "durationLabel": "0:33"
+  },
+  {
+    "id": "marx",
+    "title": "马克思恩格斯",
+    "category": "history",
+    "categoryName": "人物故事",
+    "tag": "老朋友们",
+    "description": "用像素动画，讲一段人物故事。",
+    "poster": "assets/marx.jpg",
+    "video": "videos/marx.mp4",
+    "downloadName": "小兔叽勇者-马克思恩格斯.mp4",
+    "sizeMB": 17.8,
+    "durationLabel": "1:03"
+  },
+  {
+    "id": "brother",
+    "title": "弟弟再捞我一次",
+    "category": "creative",
+    "categoryName": "创意短片",
+    "tag": "脑洞出没",
+    "description": "让文字和界面，演一出日常小剧场。",
+    "poster": "assets/brother.jpg",
+    "video": "videos/brother.mp4",
+    "downloadName": "小兔叽勇者-弟弟再捞我一次.mp4",
+    "sizeMB": 17.6,
+    "durationLabel": "0:49"
+  }
+]
