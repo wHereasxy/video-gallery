@@ -107,9 +107,20 @@ html{scroll-behavior:smooth;background:#faf6e9}body{margin:0}#rabbit-doodle{max-
 #rabbit-doodle .dd-top{padding-right:0;gap:22px}
 #rabbit-doodle nav{flex-wrap:wrap;gap:10px 22px}
 #rabbit-doodle nav .dd-support-link{color:var(--dd-red);background:var(--dd-yellow);border:1.5px solid var(--dd-ink);border-radius:6px 3px 8px 4px;padding:6px 10px;box-shadow:2px 2px 0 var(--dd-ink)}
-#rabbit-doodle .dd-support{position:fixed;width:min(360px,calc(100% - 40px));max-height:calc(100dvh - 40px);overflow:auto;margin:auto;padding:28px 25px 32px;text-align:center;color:var(--dd-ink);background:var(--dd-card);border:2px solid var(--dd-ink);border-radius:8px 4px 12px 5px;box-shadow:7px 7px 0 #292a2540}
+#rabbit-doodle .dd-support{position:fixed;width:min(650px,calc(100% - 32px));max-height:calc(100dvh - 32px);overflow:auto;margin:auto;padding:38px 25px 32px;text-align:center;color:var(--dd-ink);background:var(--dd-paper);background-image:radial-gradient(#c5bea155 .65px,transparent .65px);background-size:8px 8px;border:2px solid var(--dd-ink);border-radius:8px 4px 12px 5px;box-shadow:7px 7px 0 #292a2540}
 #rabbit-doodle .dd-support::backdrop{background:#292a2566}
 #rabbit-doodle .dd-support-close{position:absolute;top:5px;right:7px;width:44px;height:44px;font-size:26px;background:none;border:0}
-#rabbit-doodle .dd-support-heart{display:block;font:60px/1.2 Georgia,serif;color:var(--dd-red);transform:rotate(-10deg);margin-top:8px}
-#rabbit-doodle .dd-support p{color:var(--dd-soft);margin:15px 0 24px}
+#rabbit-doodle .dd-support-banner{position:relative;display:flex;align-items:center;justify-content:center;gap:30px;padding:35px 25px;margin:48px 3px 20px;border:1.5px solid var(--dd-ink);border-radius:8px 4px 12px 5px;box-shadow:4px 5px 0 #dfd7c1;background:var(--dd-card)}
+#rabbit-doodle .dd-support-banner h2,#rabbit-doodle .dd-support h2{font-size:40px;line-height:1.5}
+#rabbit-doodle .dd-banner-heart{font:64px Georgia,serif;color:var(--dd-red);transform:rotate(-12deg)}
+#rabbit-doodle .dd-support-banner .dd-card-tape{left:15%;width:72px}
+#rabbit-doodle .dd-payment-options{display:grid;grid-template-columns:1fr 1fr;gap:22px;margin-top:32px;padding:0 5px}
+#rabbit-doodle .dd-payment-card{position:relative;min-width:0;background:var(--dd-card);padding:15px 12px 12px;border:1.3px solid var(--dd-ink);border-radius:4px 7px 3px 5px;box-shadow:3px 4px 0 #dfd7c1}
+#rabbit-doodle .dd-payment-card:first-child{transform:rotate(-1deg)}
+#rabbit-doodle .dd-payment-card:last-child{transform:rotate(1deg)}
+#rabbit-doodle .dd-payment-card h3{font-size:29px;margin:3px 0 8px}
+#rabbit-doodle .dd-payment-card img{display:block;width:100%;height:auto;background:white}
+#rabbit-doodle .dd-payment-card .dd-text-link{font-size:12px;margin-top:12px;min-height:44px}
+@media(max-width:730px){#rabbit-doodle .dd-support-banner{flex-wrap:wrap;gap:18px}#rabbit-doodle .dd-support-banner h2{font-size:34px}}
+@media(max-width:500px){#rabbit-doodle .dd-support-banner{flex-direction:column;text-align:center;padding:25px 12px;gap:10px}#rabbit-doodle .dd-banner-heart{font-size:44px}#rabbit-doodle .dd-support-banner h2{font-size:31px}#rabbit-doodle .dd-support{padding:43px 18px 25px}#rabbit-doodle .dd-support h2{font-size:29px}#rabbit-doodle .dd-payment-options{grid-template-columns:1fr;gap:30px;max-width:290px;margin:28px auto 0}#rabbit-doodle .dd-payment-card{padding:15px 12px 8px}}
 @media(max-width:500px){#rabbit-doodle .dd-top{gap:12px}#rabbit-doodle nav{gap:10px 16px}#rabbit-doodle .dd-github{padding:5px 0}}
