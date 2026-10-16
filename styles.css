@@ -104,6 +104,15 @@ html{scroll-behavior:smooth;background:#faf6e9}body{margin:0}#rabbit-doodle{max-
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 
 #rabbit-doodle .dd-about{margin-top:38px}
+#rabbit-doodle .dd-teacher-note{position:relative;margin:8px 3px 26px;padding:22px 25px;background:var(--dd-card);border:1.5px solid var(--dd-ink);border-radius:4px 9px 5px 7px;box-shadow:3px 4px 0 #dfd7c1;align-items:center}
+#rabbit-doodle .dd-teacher-note:before{content:"";position:absolute;top:-10px;left:28px;width:65px;height:22px;background:#e5caa7c9;transform:rotate(-7deg)}
+#rabbit-doodle .dd-teacher-note h2{font-size:39px;line-height:1.5}
+#rabbit-doodle .dd-teacher-message{display:inline-block}
+#rabbit-doodle .dd-teacher-note .dd-count{flex:none;margin-left:0}
+#rabbit-doodle .dd-about-copy{min-width:0}
+#rabbit-doodle .dd-about-copy p{max-width:40em;font-size:14px;line-height:2}
+@media(max-width:730px){#rabbit-doodle .dd-teacher-note h2{font-size:34px}}
+@media(max-width:500px){#rabbit-doodle .dd-teacher-note{padding:20px 14px;gap:6px;align-items:flex-start}#rabbit-doodle .dd-teacher-note h2{font-size:28px}#rabbit-doodle .dd-teacher-message{display:block;white-space:nowrap}#rabbit-doodle .dd-teacher-note .dd-count{position:absolute;top:26px;right:14px}#rabbit-doodle .dd-about-copy p{font-size:13px}}
 #rabbit-doodle .dd-top{padding-right:0;gap:22px}
 #rabbit-doodle nav{flex-wrap:wrap;gap:10px 22px}
 #rabbit-doodle nav .dd-support-link{color:var(--dd-red);background:var(--dd-yellow);border:1.5px solid var(--dd-ink);border-radius:6px 3px 8px 4px;padding:6px 10px;box-shadow:2px 2px 0 var(--dd-ink)}

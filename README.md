@@ -22,5 +22,5 @@
 - 抖音: https://v.douyin.com/psDY38XTDLs/
 - 抖音号: W1822991981
 
-视频与头像版权归作者所有。提供下载不代表授权转载或二次分发。
+视频与头像版权归作者所有。欢迎老师们将本站视频用于课堂教学。提供下载不代表授权转载或二次分发。
 手写字体 Ma Shan Zheng 由 Google Fonts 提供，以 SIL Open Font License 分发，许可见 `assets/OFL.txt`。
