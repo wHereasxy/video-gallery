@@ -6,10 +6,6 @@ let works = [];
 let filter = 'all';
 let previousFocus;
 const support = document.getElementById('dd-support');
-const supportButton = element('button', 'dd-button dd-support-link cursor-interaction', '♡ 打赏作者');
-supportButton.type = 'button';
-supportButton.dataset.support = '';
-root.querySelector('.dd-socials').append(supportButton);
 
 function element(tag, className, text) {
   const node = document.createElement(tag);
